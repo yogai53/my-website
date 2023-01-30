@@ -1,5 +1,4 @@
 import me from "./avatar.jpeg";
-import Balancer from "react-wrap-balancer";
 import Link from "next/link";
 
 export const name = "Yoganandan Pandiyan";
