@@ -13,7 +13,7 @@ const experiences: IExperience[] = [
     desc: `A No-Code and All-In-One tool for an Edupreneur. It is a Multi Tenanted SAAS platform with a wide range of essential tools for the institutes to run online. I lead a strong engineering team and continuously strive hard in getting the product to the peak of the market. I play a crucial role in shipping features faster and highly performant as well. `,
     position: (
       <>
-        Product Lead & Full Stack Developer in{" "}
+        Lead Full Stack Developer in{" "}
         <Link
           target="_"
           href="https://www.teachedison.com/"

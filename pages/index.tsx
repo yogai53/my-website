@@ -41,7 +41,7 @@ export default function HomePage() {
       </p>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         I am open for interesting opportunities, consulting or any other
-        discussions specific to tech.
+        discussions specific to web technology.
       </p>
       <div className="flex flex-col items-start my-8 md:items-center md:flex-row">
         <Image
@@ -73,30 +73,6 @@ export default function HomePage() {
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
       </p>
-      <ul className="flex flex-col mt-8 space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-700 dark:hover:text-neutral-200"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/leeerob"
-          >
-            <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-700 dark:hover:text-neutral-200"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://leerob.substack.com"
-          >
-            <ArrowIcon />
-            <p className="h-7">get email updates</p>
-          </a>
-        </li>
-      </ul>
     </section>
   );
 }

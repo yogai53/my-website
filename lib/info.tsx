@@ -15,8 +15,7 @@ export const about = () => {
       <Link href="https://teachedison.com" target="_" className="underline">
         Teachedison
       </Link>
-      . I work and help my team solve, develop, test and ship various modules of
-      the Product.
+      .
     </>
   );
 };

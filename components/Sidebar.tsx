@@ -23,12 +23,12 @@ const navItems = {
     y: 69,
     w: "110px",
   },
-  // "/guestbook": {
-  //   name: "guestbook",
-  //   x: 182,
-  //   y: 104,
-  //   w: "100px",
-  // },
+  "/articles": {
+    name: "Articles",
+    x: 100,
+    y: 104,
+    w: "100px",
+  },
 };
 
 export default function Sidebar() {
