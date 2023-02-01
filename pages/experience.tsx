@@ -50,7 +50,7 @@ const experiences: IExperience[] = [
         </Link>
       </>
     ),
-    desc: "I was deployed as a Performance tester, where i had used tools like LoadRunner, JMeter to determine the performance metrics of an application like Reliability, Throughput etc., Being a new-bee to the industry, i was constantly searching for opportunities related to development, which was always i wanted.",
+    desc: "I was deployed as a Performance tester, where i had used tools like LoadRunner, JMeter to determine the performance metrics of an application like Reliability, Throughput etc., ",
   },
 ];
 
