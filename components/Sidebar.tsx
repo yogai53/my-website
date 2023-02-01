@@ -7,27 +7,27 @@ import clsx from "clsx";
 const navItems = {
   "/": {
     name: "Home",
-    x: 0,
+    x: 3,
     y: 0,
-    w: "64px",
+    w: "70px",
   },
   "/about": {
     name: "About",
-    x: 64,
+    x: 67,
     y: 35,
-    w: "65px",
+    w: "70px",
   },
   "/experience": {
     name: "Experience",
     x: 127,
     y: 69,
-    w: "110px",
+    w: "115px",
   },
   "/articles": {
     name: "Articles",
-    x: 100,
-    y: 104,
-    w: "100px",
+    x: 230,
+    y: 103,
+    w: "85px",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Sidebar() {
   const pathname = usePathname()!;
 
   return (
-    <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif">
+    <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0">
       <div className="lg:sticky lg:top-20">
         <nav
           className="relative flex flex-row items-start px-4 pb-0 overflow-scroll md:flex-col md:px-0 fade md:overflow-auto scroll-pr-6 md:relative"

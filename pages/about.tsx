@@ -15,19 +15,20 @@ export default function AboutPage() {
     <section>
       <h1 className="font-serif text-3xl font-bold">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I`m Yoganandan from Tamilnadu, India. I have a bachelor of
+        Hey, I`m Yoganandan from Tamilnadu, India. I have a Bachelor of
         Information Technology from PSG Tech, Coimbatore, India.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p className="mb-10">
-          I`m currently the <b>Team Lead</b> at Teachedison.
+          I`m currently the <b>Lead Full Stack Developer</b> at Teachedison.
         </p>
         <hr className="mb-10" />
         <p className="mb-6">
-          I`m <b>passionate</b> about contributing to the society in various
-          forms. I like to listen a lot of classical musics and sometimes try to
-          play them with my guitar and keyboard. I was a Pro cricket player and
-          now continuing to play it regularly to maintain my fitness.
+          I`m <b>passionate</b> about contributing good things to the society,
+          to make my life more meaningful. I like to listen a lot of classical
+          musics and sometimes try to play them with my guitar and keyboard. I
+          was a Pro cricket player and now continuing to play regularly to
+          maintain my fitness.
         </p>
         <p className="mb-6">
           Web is a magic. From a barebone server to cloud, from plain HTML to a
@@ -37,9 +38,9 @@ export default function AboutPage() {
         </p>
         <p className="mb-8">
           I am from Tamilnadu India, currently residing in Copenhagen, a
-          beautify city of love. I am able to meet lots of good people around
-          and discuss on interesting things. It is winter out here, so no Sports
-          activity. Eagerly waiting for the long summer.
+          beautify city of love. I am able to meet lot of good people around and
+          discuss on interesting things. It is winter out here, so not much
+          Sports activities. Eagerly waiting for the long summer.
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a

@@ -1,15 +1,6 @@
+import { BackEnd, Cloud, Database, FrontEnd } from "components/icons";
+import { about, avatar, bio, name } from "lib/info";
 import Image from "next/image";
-import {
-  ArrowIcon,
-  GitHubIcon,
-  TwitterIcon,
-  ViewsIcon,
-  FrontEnd,
-  BackEnd,
-  Database,
-  Cloud,
-} from "components/icons";
-import { name, about, bio, avatar } from "lib/info";
 
 export const revalidate = 60;
 

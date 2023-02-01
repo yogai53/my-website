@@ -34,7 +34,7 @@ const experiences: IExperience[] = [
         </Link>
       </>
     ),
-    desc: "I played a crucial role in engineering and shipping features to the projects’ needs. Being in a service-oriented enterprise, I was able to learn and work on a wider range of technologies and tools, which helped me become a solid full-stack developer.",
+    desc: "A place, where i started my development journey from the scratch. I played a crucial role in engineering and shipping features to the projects’ needs. Being in a service-oriented enterprise, I was able to learn and work on a wider range of technologies and tools, which helped me become a solid full-stack developer.",
   },
   {
     date: "August 2013",
@@ -50,6 +50,7 @@ const experiences: IExperience[] = [
         </Link>
       </>
     ),
+    desc: "I was deployed as a Performance tester, where i had used tools like LoadRunner, JMeter to determine the performance metrics of an application like Reliability, Throughput etc., Being a new-bee to the industry, i was constantly searching for opportunities related to development, which was always i wanted.",
   },
 ];
 
