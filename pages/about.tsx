@@ -23,24 +23,23 @@ export default function AboutPage() {
           I`m currently the <b>Team Lead</b> at Teachedison.
         </p>
         <hr className="mb-10" />
-        <p className="mb-10">
-          I`m passionate about many creative pursuits, including music,
-          photography, videography, and of course, coding. This combination of
-          interests is what ultimately led me to my current role in building
-          developer communities.
+        <p className="mb-6">
+          I`m <b>passionate</b> about contributing to the society in various
+          forms. I like to listen a lot of classical musics and sometimes try to
+          play them with my guitar and keyboard. I was a Pro cricket player and
+          now continuing to play it regularly to maintain my fitness.
         </p>
-        <p className="mb-10">
-          I <b>love</b> building for the web. From something as simple as a
-          single HTML file – all the way to large Next.js applications. The web
-          is incredible. Anyone can become a developer, writer, or creator – and
-          no one has to ask for permission. You can just build.
+        <p className="mb-6">
+          Web is a magic. From a barebone server to cloud, from plain HTML to a
+          Headless CMS and from vanilla php to serverless, it is evolving
+          constantly. It is becoming very important to stay updated to keep
+          producing magical products.
         </p>
         <p className="mb-8">
-          Outside of Vercel, I <b>angel invest</b> in developer tools companies
-          and <b>advise early-stage startups</b>. I also do Developer Relations
-          consulting work, helping companies take their DevRel function from 0
-          to 1, or provide guidance on growing communities, content creation,
-          and developer marketing.
+          I am from Tamilnadu India, currently residing in Copenhagen, a
+          beautify city of love. I am able to meet lots of good people around
+          and discuss on interesting things. It is winter out here, so no Sports
+          activity. Eagerly waiting for the long summer.
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
