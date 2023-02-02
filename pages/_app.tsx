@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Layout from "../components/layout";
 import { Raleway } from "@next/font/google";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Raleway({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </main>
   );
 }
