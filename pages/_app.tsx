@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main className={inter.className}>
       <Head>
         <title>Yoganandan</title>
-        <link rel="icon" href="/croppedicon.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />
