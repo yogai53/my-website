@@ -18,6 +18,14 @@ const articles: IArticle[] = [
     title: "Javascript Prototype Chaining",
     link: "https://medium.com/@p.yoganandan/javascript-prototype-chaining-b457caaf2358",
   },
+  {
+    title: "Achieving Oops with Javascript Function",
+    link: "https://medium.com/@p.yoganandan/achieving-oops-with-function-e2a55a2e9e57",
+  },
+  {
+    title: "Javascript Mutability and Immutability",
+    link: "https://medium.com/@p.yoganandan/mutable-and-immutable-30b71f8e726e",
+  },
 ];
 
 export default function Articles() {
