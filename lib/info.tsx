@@ -24,8 +24,8 @@ export const bio = () => {
     <>
       I am a full stack developer with experiences on different tech stacks and
       i have deep understanding between various frameworks and their use cases.
-      I also mentor people who needs heads-up on any tech matters. Recently,
-      just started to write{" "}
+      I also mentor people who needs heads-up on any tech matters. Interested in
+      writing{" "}
       <Link
         target="_"
         href="https://medium.com/@p.yoganandan"
