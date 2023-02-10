@@ -32,18 +32,19 @@ export default function Articles() {
   return (
     <section>
       <h1 className="mb-10 font-serif text-3xl font-bold">Articles</h1>
-      <div className="flex flex-col gap-2 md:flex-row">
+      <div className="flex flex-col gap-2 md:flex-row md:flex-wrap">
         {articles.map((article, i) => (
-          <Link
-            key={i}
-            href={article.link}
-            target="_"
-            className={
-              "p-4 rounded-full border-solid bg-gray-200 hover:bg-gray-600 hover:text-white"
-            }
-          >
-            {article.title}
-          </Link>
+          <div className="flex whitespace-nowrap" key={i}>
+            <Link
+              href={article.link}
+              target="_"
+              className={
+                "p-4 rounded-full border-solid bg-gray-200 hover:bg-gray-600 hover:text-white w-full"
+              }
+            >
+              {article.title}
+            </Link>
+          </div>
         ))}
       </div>
     </section>
